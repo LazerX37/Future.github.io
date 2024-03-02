@@ -1,0 +1,197 @@
+body {
+    background-image: url("images/future_bg_1980x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: auto;
+}
+
+
+.navbar {
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    height: 600px;
+    padding: 300px;
+    font-size: 64px;
+}
+
+.disabled {
+    pointer-events: none;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    display: inline;
+}
+
+.link:hover {
+    font-size: 28px;
+}
+
+
+.foter {
+    background-color: black;
+    height: 6em;
+}
+
+.main_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.fotter_item {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    padding-left: 0px;
+    display: inline;
+}
+
+.fotter_item:hover {
+    color: rgb(162, 167, 172);
+}
+
+/* .law_block {
+    font-size: 18px;
+    background-color: black;
+    display: flex;
+} */
+
+.law {
+    font-size: 18px;
+}
+
+.mainbox_text {
+    margin: 2em 20em;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* .main_text_biography {
+
+} */
+
+.inline_albums_1_2_5 {
+    padding: 10px;
+    width: 25%;
+    float: right;
+    filter: brightness(20%);
+}
+
+.inline_albums_1_2_5:hover {
+    filter: brightness(100%);
+}
+
+.inline_albums_3_4 {
+    padding: 10px;
+    width: 25%;
+    float: left;
+    filter: brightness(20%);
+}
+
+.inline_albums_3_4:hover {
+    filter: brightness(100%);
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    color: aliceblue;
+    background-color: transparent;;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.dropdown:hover button{
+    color: rgb(162, 167, 172);
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: rgb(164, 178, 190);
+    padding: 10px 0;
+}
+
+.dropdown a:hover {
+    background-color: rgb(67, 70, 73);
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 150px;
+    box-shadow: 2px 2px 5px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.award {
+    margin: 10px 0;
+}
+
+.award_photo {
+    width: 25%;
+}
+
+.award_text {
+    padding: 0px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.album {
+    margin: 10px 0;
+}
+
+.album_photo {
+    width: 25%;
+}
+
+.album_text {
+    padding: 0px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.album_link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.album_link:hover {
+    color: rgb(162, 167, 172);
+}
+
+.life_img {
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
